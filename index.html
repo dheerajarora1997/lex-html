@@ -6,13 +6,14 @@
     <title>TheLexBot</title>
     <link rel="stylesheet" href="./style/css/main.css" />
     <link rel="stylesheet" href="./style/css/homepage.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
   </head>
   <body>
     <header
       class="navbar navbar-expand-lg bd-navbar position-absolute w-100 z-10"
     >
       <div class="container">
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand" href="https://thelexbot.com/">
           <img src="./img/lex.png" alt="TheLexBot" class="w-20" />
         </a>
         <button
@@ -24,7 +25,7 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <svg
+          <!-- <svg
             width="40px"
             height="40px"
             viewBox="0 0 24 24"
@@ -38,22 +39,45 @@
               stroke-linecap="round"
               stroke-linejoin="round"
             ></path>
-          </svg>
+          </svg> -->
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto align-items-lg-center mt-2">
-            <a href="#" class="btn btn-link rounded-2 px-2 py-2 ms-lg-2 w-28"
+            <a
+              href="https://thelexbot.com/auth/login"
+              target="_blank"
+              class="btn btn-link rounded-2 px-2 py-2 ms-lg-2 w-28 text-decoration-none text-dark"
               >Login</a
             >
-            <a href="#" class="btn btn-primary rounded-2 px-2 py-2 ms-lg-2 w-28"
+            <a
+              href="https://thelexbot.com/auth/signup"
+              target="_blank"
+              class="btn btn-primary rounded-2 px-2 py-2 ms-lg-2 w-28 text-decoration-none text-white"
               >Sign Up</a
             >
           </div>
         </div>
       </div>
     </header>
-    <section class="py-5 bg-opacity-25 min-h-96">
-      <div class="container"></div>
+    <section
+      class="py-5 bg-opacity-25 min-h-96 hero-section d-flex align-items-center"
+    >
+      <div class="container text-center">
+        <h1 class="fw-bold display-4 col-sm-12 col-md-11 col-lg-10 mx-auto">
+          Meet Lex: AI Agent Revolutionizing Legal Research
+        </h1>
+        <p class="col-sm-12 col-md-10 col-lg-8 mx-auto">
+          Save time, boost efficiency, and enhance accuracy using our AI-driven
+          search to find relevant cases and statutes instantly through millions
+          of Indian Court Documents.
+        </p>
+        <a
+          href="https://thelexbot.com/auth/signup"
+          class="btn btn-primary p-2 mx-auto text-white px-4 fw-medium"
+          target="_blank"
+          >Get started for free</a
+        >
+      </div>
     </section>
     <section class="gradient py-5">
       <div class="container py-4">
