@@ -1,0 +1,20 @@
+.gradient {
+  background: linear-gradient(0, rgba(13, 153, 255, 0.2), rgba(242, 248, 252, 0.5));
+  background: rgb(13, 153, 255);
+  background: linear-gradient(0deg, rgba(13, 153, 255, 0.5) 0%, rgba(242, 248, 252, 0.8) 20%);
+  background-size: 100% 100%;
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/*# sourceMappingURL=homepage.css.map */
