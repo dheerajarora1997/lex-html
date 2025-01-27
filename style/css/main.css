@@ -13081,4 +13081,23 @@ a {
   max-height: 24rem;
 }
 
+@media only screen and (max-width: 992px) {
+  .navbar-collapse .navbar-nav {
+    position: relative;
+    padding: 10px;
+    z-index: 9;
+    max-width: 150px;
+  }
+  .navbar-collapse .navbar-nav:before {
+    content: "";
+    background: rgba(255, 255, 255, 0.3);
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    z-index: -1;
+    backdrop-filter: saturate(100%) blur(8px);
+    box-shadow: 0 0 10px rgba(241, 111, 59, 0.1);
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
